@@ -82,7 +82,7 @@ const singleUpload = async () => {
 
 <template>
   <div class="flex flex-col gap-2 w-[200px] h-[100%] p-2">
-    <b class="text-purple-900">Single Upload</b>
+    <b class="text-purple-900 font-bold">Single Upload</b>
     <label
       class="buttons border relative flex items-center"
       :style="{
@@ -100,12 +100,12 @@ const singleUpload = async () => {
       <img
         v-else-if="singleFile?.status == 2"
         class="absolute top-1 left-1 w-[30px]"
-        src="https://t3.ftcdn.net/jpg/04/83/27/52/360_F_483275230_S6o73rQ6Brygo92tDwoR4TLwdGxwzPMw.jpg"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/No_icon_red.svg/768px-No_icon_red.svg.png"
       />
       <img
         v-else-if="singleFile?.status == 3"
         class="absolute top-1 right-1 w-[30px]"
-        src="https://cdn.iconscout.com/icon/premium/png-256-thumb/max-size-7251675-5965202.png?f=webp"
+        src="https://t4.ftcdn.net/jpg/00/62/27/95/360_F_62279541_nT0iKxMl7Z1wH8DdhZXIznELa4rFcGsG.jpg"
       />
       <b v-if="!singleFile?.img" class="p-4 text-red-500 bottom-0 absolute"
         >Max file size - 10MB</b
