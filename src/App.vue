@@ -8,4 +8,4 @@ import Multiple from './components/multiple.vue';
   <Multiple />
 </template>
 
-<style scoped></style>
+<style scoped></style>    
